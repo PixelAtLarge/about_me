@@ -1,0 +1,108 @@
+body {
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  color: #2f4f4f;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
+::selection {
+  background: #afbab8;
+}
+
+.masthead {
+  background-image: url("http://magdeleine.co/wp-content/uploads/2014/11/camarama-1400x933.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-top: solid 1em #afbab8;
+  padding: 2em 0;
+}
+
+.masthead,
+.footer-content {
+  text-align: center;
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-top: 2.5em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  color: #dfe3e1;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  margin-top: -0.1em;
+  /* Typography Declarations */
+  font-size: 8em;
+  color: #afbab8;
+  text-shadow: 5px 5px #293828;
+}
+
+section {
+  margin: auto;
+  max-width: 38em;
+}
+
+.intro-section {
+  margin-top: 4em;
+}
+
+h2 {
+  color: #293828;
+  font-size: 2.2em;
+}
+
+h3 {
+  margin: 2em 0 1em 0;
+  color: #636F57;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.footer-content {
+  background-color: #afbab8;
+  height: 9em;
+  margin-top: 5em;
+}
+
+.footer-content p {
+  padding-top: 2.6em;
+  padding-bottom: 0.2em;
+  color: #dfe3e1;
+}
+
+li a {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: sans-serif;
+  color: #293828;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #696969;
+}
+
+.footer-content ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  display: inline-block;
+}
+
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
